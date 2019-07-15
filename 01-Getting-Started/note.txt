@@ -1,0 +1,18 @@
+# upgrade pip and install flask module
+pip install --upgrade pip
+pip install flask
+
+# run python
+>>> import flask
+
+# Environment setup
+set FLASK_APP=flaskblog.python
+set FLASK_DEBUG=1
+
+# make directory and develop your flaskblog.py
+mkdir flask_blog
+flask run (python flaskblog.py)
+
+# flask reference pages
+https://flask.palletsprojects.com/en/1.0.x/
+https://palletsprojects.com/p/flask/

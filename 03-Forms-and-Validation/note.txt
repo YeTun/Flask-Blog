@@ -1,0 +1,7 @@
+# Flask wtf form
+pip install flask-wtf
+
+# Create secret key
+>>> import secret
+>>> secrets.token_hex(16)
+
